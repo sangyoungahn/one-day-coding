@@ -1,0 +1,32 @@
+(id가 demo인 것을 가져오겠다)
+document.getElementById("demo");
+
+document.getElementById("demo").innerHTML="GDGD";
+
+
+("변수 + 값" 이런식으로 묶어 놓은 것을 Jason타입이라고 함. 즉, 사전에서 사용하는 방식)
+
+
+(객체 변수 생성과 값 넣기)
+var object = {firstName:"sangyoung", lastName:"ahn"};
+
+
+(배열 초기화 및 값 생성)
+var cars = ["honda", "volvo", "bmw"];
+
+
+(배열 초기화)
+var cars2 = new Array();
+
+
+(배열 값 넣기)
+cars.push("KIA");
+
+
+(배열 값 빼기)
+cars.pop();
+cars.pop(2);
+
+
+(object는 연관 있는 속성들끼리 묶어놓은 집합체이다)
+var person = {firstName:"sangyoung", lastName:"Ahn", age:26};
