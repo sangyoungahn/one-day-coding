@@ -1,0 +1,21 @@
+<github에 파일 올리기>
+
+맨 처음으로 git에 올릴 디렉토리를 하나 만들어준다
+그 디렉토리로 이동해서 다음의 명령어들을 실행!
+
+$ git config --global user.name sangyoungahn
+
+$ git config --global user.email tkddud1237@gmail.com
+
+$ git init
+
+$ git add .  or   git add "올리고 싶은 파일명"
+
+$ git commit -m "쓰고 싶은 말"
+
+remote 레파지토리(repository) 셋팅. 여기서는 https로 등록함.
+주소는 github 사이트에 가서 자신이 만든 repository 화면에 들어가면 찾을 수 있다.
+$ git remote add origin https://github.com/sangyoungahn/one-day-coding.git
+
+원격 저장소에 파일을 적용
+$ git push -u origin master
