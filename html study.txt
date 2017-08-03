@@ -1,0 +1,63 @@
+(html Elements)
+<h1> ~ <h6> title을 나타낼 때 사용.
+
+<p> : 단락을 나타낼 때 사용.
+
+(html Quotations)
+<q> : 짧은 인용구에 사용하며 ""로 묶어준다.
+
+<blockquote> : 긴 인용구에 사용하며 들여쓰기 형식으로 나타내준다.
+
+<abbr> : 약어를 나타내며 선택적으로 약어에 대한 전체 설명을 제공한다. title 속성이 존재한다면 전체 설명만을 포함해야한다.
+
+<address> : 문서, 기사의 연락처 정보를 정의한다. 이탤릭체로 표시됨.
+
+<cite> : 문장에서 제목을 정의. 이탤릭체로 표시됨.
+
+<bdo> : 현재 텍스트의 방향을 오버라이드하기 위해 사용.
+  ltr : 텍스트가 왼쪽에서 오른쪽 방향으로 이동해야 함.
+  rtl : 텍스트가 오른쪽에서 왼쪽 방향으로 이동해야 함.
+  auto : 요소의 내용에 기초하여 브라우저가 방향을 결정.
+
+(html Comments)
+<!-- --> : 주석
+
+(html CSS)
+<link rel="stylesheet" href="styles.css">
+저장된 'styles.css' 파일의 디자인 형식을 가져와서 사용하겠다.
+여기서 'styles.css' 파일을 external style sheet라고 하는데 이것은 text 문서로 작성되어야 한다.
+  color : 글자 색깔
+  font-family : 글씨체
+  font-size : 글자크기
+  border : 글자크기 굵게
+  padding : 글자 사이 간격
+  margin : 경계 외부의 간격
+
+(html Links)
+<a href="url">link text</a> : link text를 누르면 url 주소로 링크.
+
+(html Images)
+<img src="url" alt="some_text" style="width:너비값;height:높이값;">
+브라우저가 이미지를 못 찾으면 alt에 넣은 text를 출력한다.
+
+(html Tables)
+<th> : table head 약자로, 표의 제목을 쓰는 역할(기본값 : 굵은 글씨체, 중앙 정렬)
+<tr> : table row 약자로, 가로줄을 만드는 역할(기본값 : 보통 글씨체, 왼쪽 정렬)
+<td> : table data 약자로, 셀을 만드는 역할(기본값 : 보통 글씨체, 왼쪽 정렬)
+
+(html Lists)
+<ul>   -> <ul> : unordered list
+  <li>Coffee</li>   -> <li> : 작은 검정색 원으로 표시.
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+  disc : 검정색 원
+  circle : 하얀색 원
+  square : 검정색 사각형
+  none : 아무 것도 표시 안 함
+
+<ol>   -> <ol> : ordered list
+  <li>Coffee</li>   -> 각각은 자동으로 증가되는 숫자로 표시.
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
